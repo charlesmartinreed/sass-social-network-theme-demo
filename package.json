@@ -1,0 +1,24 @@
+{
+  "name": "sass-starter-proj",
+  "version": "1.0.0",
+  "description": "SASS starter project for new projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesmartinreed/sass-starter-project.git"
+  },
+  "author": "Charles Martin Reed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlesmartinreed/sass-starter-project/issues"
+  },
+  "homepage": "https://github.com/charlesmartinreed/sass-starter-project#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
