@@ -1,4 +1,8 @@
+$color: salmon;
+
 body {
-  background: purple;
+  background: $color;
   color: white;
+
+  height: 400vh;
 }

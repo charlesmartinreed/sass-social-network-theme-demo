@@ -6,12 +6,12 @@ const browserSync = require("browser-sync").create();
 // with v4 of gulp, we write functions, not tasks
 function style() {
   // 1. Where is my scss file - look for any folders that have scss files
-  // 2. Pass scss file through sass compiler
+  // 2. Pass scss file through sass compiler - error logging enabled
   // 3. Save the compiled CSS somewhere
   // 4. Stream changes between all browsers with browser-sync
   return gulp
     .src("./src/scss/**/*.scss")
-    .pipe(sass())
+    .pipe(sass().on("error", sass.logError))
     .pipe(gulp.dest("./css"))
     .pipe(browserSync.stream());
 }
@@ -25,7 +25,7 @@ function watch() {
     }
   });
   gulp.watch("./src/scss/**/*.scss", style);
-  gulp.watch("./src/*.html").on("change", browserSync.reload);
+  gulp.watch("./*.html").on("change", browserSync.reload);
   gulp.watch("./src/js/**/*.js").on("change", browserSync.reload);
 }
 
