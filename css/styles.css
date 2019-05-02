@@ -102,7 +102,7 @@
 
 .bg-danger {
   background-color: #dc3545;
-  color: #333; }
+  color: #fff; }
 
 .bg-white {
   background-color: #fff;
@@ -137,11 +137,30 @@
       background: #2dbc4e; }
   .btn.btn-danger {
     background-color: #dc3545;
-    color: #333; }
+    color: #fff; }
     .btn.btn-danger:hover {
       background: #e04b59; }
   .btn:hover {
     background: #626d78;
+    color: #fff; }
+
+.alert {
+  padding: 0.8rem;
+  margin: 1rem;
+  opacity: 0.9;
+  background: #f4f4f4;
+  color: #333; }
+  .alert.alert-primary {
+    background-color: #17a2b8;
+    color: #fff; }
+  .alert.alert-dark {
+    background-color: #343a40;
+    color: #fff; }
+  .alert.alert-success {
+    background-color: #28a745;
+    color: #fff; }
+  .alert.alert-danger {
+    background-color: #dc3545;
     color: #fff; }
 
 .dark-overlay {
