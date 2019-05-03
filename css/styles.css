@@ -191,6 +191,14 @@
     background-color: #dc3545;
     color: #fff; }
 
+.table th,
+.table td {
+  padding: 1rem;
+  text-align: left; }
+
+.table th {
+  background: #f4f4f4; }
+
 .dark-overlay {
   height: 100%;
   width: 100%;
