@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
+      integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ"
+      crossorigin="anonymous"
+    ></script>
+    <title>DevConnector</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar bg-dark">
+      <h1>
+        <a href="dashboard.html"> <i class="fas fa-code"></i> DevConnector </a>
+      </h1>
+
+      <ul>
+        <li><a href="profiles.html">Developers</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+
+    <!-- FIRST SECTION -->
+    <section class="container">
+      <h1 class="large text-primary">Dashboard</h1>
+      <p class="lead"><i class="fas fa-user"></i> Welcome John Doe</p>
+      <div class="dash-buttons">
+        <a href="create-profile.html" class="btn">
+          <i class="fas fa-user-circle text-primary"></i> Edit Profile
+        </a>
+        <a href="create-profile.html" class="btn">
+          <i class="fab fa-black-tie text-primary"></i> Add Experience
+        </a>
+        <a href="create-profile.html" class="btn">
+          <i class="fas fa-graduation-cap text-primary"></i> Add Education
+        </a>
+      </div>
+
+      <!-- EXPERIENCe -->
+      <h2 class="my-2">Experience Credentials</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="">Company</th>
+            <th class="hide-sm">Title</th>
+            <th class="hide-sm">Years</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Microsoft</td>
+            <td class="hide-sm">Senior C# Developer</td>
+            <td class="hide-sm">October 2011 - Present</td>
+            <td><button class="btn btn-danger">Delete</button></td>
+          </tr>
+          <tr>
+            <td>Amazon</td>
+            <td class="hide-sm">PHP Developer</td>
+            <td class="hide-sm">July 2005 - September 2011</td>
+            <td><button class="btn btn-danger">Delete</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- EDUCATION -->
+      <h2 class="my-2">Experience Credentials</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="">School</th>
+            <th class="hide-sm">Degree</th>
+            <th class="hide-sm">Years</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Stanford</td>
+            <td class="hide-sm">Bachelors of CompSci</td>
+            <td class="hide-sm">Class of 2005</td>
+            <td><button class="btn btn-danger">Delete</button></td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- DELETE ACCOUNT -->
+      <div class="my-2">
+        <button class="btn btn-danger">
+          <i class="fas fa-user-minus"></i> Delete My Account
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
