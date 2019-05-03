@@ -29,6 +29,10 @@
   color: $primary-color;
 }
 
+.round-img {
+	border-radius: 50%;
+}
+
 // BACKGROUND
 // & is a placeholder; e.g., &-primary is .bg-primary
 .bg {
